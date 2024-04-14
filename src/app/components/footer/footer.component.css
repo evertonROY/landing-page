@@ -1,0 +1,29 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h4{
+            font-size:40px;
+            margin-left:20px;
+        }
+    }
+
+    .redesocial{
+        a{
+            margin: 10px;
+        }
+    }
+}
+
+@media (min-width: 1080px){
+    footer{
+        padding: 40px 100px;
+    }
+}

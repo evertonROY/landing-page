@@ -1,0 +1,27 @@
+<section class="form-section">
+    <div class="text">
+        <h3>
+            Fique por dentro de tendências
+        </h3>
+        <p>
+            Kipper Consultoria oferece soluções personalizadas para superar desafios de escalabilidade e lidar com grandes volumes de requisições. Nossa equipe especializada está pronta para otimizar o desempenho do seu sistema, garantindo estabilidade e eficiência.
+            <br>
+            <br>
+            Preencha o formulário para entrar em contato conosco e melhorar sua experiência de software. Estamos prontos para ajudar sua empresa a crescer!
+        </p>
+    </div>
+    <form [formGroup]="newsletterForm">
+        <label for="name">Nome</label>
+        <input id="name" formControlName="name"/>
+        <label for="email">Email</label>
+        <input id="email" formControlName="email"/>
+        <btn-primary
+         btn-text="se inscreva" 
+         variant="secondary" 
+         (submit)="onSubmit()" 
+         [disabled]="!newsletterForm.valid"
+         [loading]="loading()"
+         ></btn-primary>
+    </form>
+</section>
+
