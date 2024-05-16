@@ -1,10 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { NewsletterResponse } from '../interfaces/newsletter.interface';
 
-interface NewsletterResponse {
-  message: string
-}
 
 @Injectable({
   providedIn: 'root'
