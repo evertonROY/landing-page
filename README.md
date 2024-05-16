@@ -1,4 +1,4 @@
-# Landing page
+# Landing-page
 
 ### [Clique Aqui Para ver rodando!](https://landing-page-green-six.vercel.app/) 
 
